@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+springdoc:
+  api-docs:
+    path: /open-api/v3/api-docs
+  swagger-ui:
+    path: /open-api/v3/swagger-ui.html
+
+pokemon:
+  domain: "https://pokeapi.co"
+  URI: "/api/v2/pokemon"
+  allOriginalsParam: "limit=151"
