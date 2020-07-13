@@ -15,4 +15,5 @@ public class Pokemons {
     private List<Pokemon> results = new ArrayList();
 
     private Integer count;
+
 }

@@ -24,6 +24,6 @@ public class PokemonService {
     }
 
     public Pokemons findAllOriginals() {
-        return pokemonClient.findAllOriginals();
+        return pokemonUtil.extractPokemonNumberFromUrl(pokemonClient.findAllOriginals());
     }
 }
